@@ -1,0 +1,40 @@
+#header{
+    background-color: rgb(0, 209, 164);
+}
+#content{
+    width: auto;
+    height: 1000px;
+    background-color: rgb(236, 176, 103);
+    margin: auto;
+}
+#main-topic{
+    padding: 15px 0 15px 0;
+}
+#topic{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#nav-list{
+    text-align: center;
+}
+#nav-button:hover{
+    background-color: rgb(13, 179, 179);
+}
+
+@media(min-width:1200px){
+    .nav-item{
+        visibility: hidden;
+    }
+}
+@media(min-width:992px){
+    .nav-item{
+        visibility: hidden;
+    }
+}
+@media (max-width: 575.98px) { 
+    #content{
+        max-width: 430px;
+    }
+}
